@@ -1,0 +1,591 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F176E4F221A2177D001793B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E4F121A2177D001793B9 /* AppDelegate.swift */; };
+		F176E4F421A2177D001793B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E4F321A2177D001793B9 /* ViewController.swift */; };
+		F176E4F721A2177D001793B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176E4F521A2177D001793B9 /* Main.storyboard */; };
+		F176E4F921A2177E001793B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F176E4F821A2177E001793B9 /* Assets.xcassets */; };
+		F176E4FC21A2177E001793B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176E4FA21A2177E001793B9 /* LaunchScreen.storyboard */; };
+		F176E50721A2177E001793B9 /* sterresmit_pset2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E50621A2177E001793B9 /* sterresmit_pset2Tests.swift */; };
+		F176E51221A2177E001793B9 /* sterresmit_pset2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E51121A2177E001793B9 /* sterresmit_pset2UITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F176E50321A2177E001793B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F176E4E621A2177D001793B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F176E4ED21A2177D001793B9;
+			remoteInfo = "sterresmit-pset2";
+		};
+		F176E50E21A2177E001793B9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F176E4E621A2177D001793B9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F176E4ED21A2177D001793B9;
+			remoteInfo = "sterresmit-pset2";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F176E4EE21A2177D001793B9 /* sterresmit-pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sterresmit-pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F176E4F121A2177D001793B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F176E4F321A2177D001793B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F176E4F621A2177D001793B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F176E4F821A2177E001793B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F176E4FB21A2177E001793B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F176E4FD21A2177E001793B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F176E50221A2177E001793B9 /* sterresmit-pset2Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sterresmit-pset2Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F176E50621A2177E001793B9 /* sterresmit_pset2Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sterresmit_pset2Tests.swift; sourceTree = "<group>"; };
+		F176E50821A2177E001793B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F176E50D21A2177E001793B9 /* sterresmit-pset2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sterresmit-pset2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F176E51121A2177E001793B9 /* sterresmit_pset2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sterresmit_pset2UITests.swift; sourceTree = "<group>"; };
+		F176E51321A2177E001793B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F176E4EB21A2177D001793B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176E4FF21A2177E001793B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176E50A21A2177E001793B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F176E4E521A2177D001793B9 = {
+			isa = PBXGroup;
+			children = (
+				F176E4F021A2177D001793B9 /* sterresmit-pset2 */,
+				F176E50521A2177E001793B9 /* sterresmit-pset2Tests */,
+				F176E51021A2177E001793B9 /* sterresmit-pset2UITests */,
+				F176E4EF21A2177D001793B9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F176E4EF21A2177D001793B9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F176E4EE21A2177D001793B9 /* sterresmit-pset2.app */,
+				F176E50221A2177E001793B9 /* sterresmit-pset2Tests.xctest */,
+				F176E50D21A2177E001793B9 /* sterresmit-pset2UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F176E4F021A2177D001793B9 /* sterresmit-pset2 */ = {
+			isa = PBXGroup;
+			children = (
+				F176E4F121A2177D001793B9 /* AppDelegate.swift */,
+				F176E4F321A2177D001793B9 /* ViewController.swift */,
+				F176E4F521A2177D001793B9 /* Main.storyboard */,
+				F176E4F821A2177E001793B9 /* Assets.xcassets */,
+				F176E4FA21A2177E001793B9 /* LaunchScreen.storyboard */,
+				F176E4FD21A2177E001793B9 /* Info.plist */,
+			);
+			path = "sterresmit-pset2";
+			sourceTree = "<group>";
+		};
+		F176E50521A2177E001793B9 /* sterresmit-pset2Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F176E50621A2177E001793B9 /* sterresmit_pset2Tests.swift */,
+				F176E50821A2177E001793B9 /* Info.plist */,
+			);
+			path = "sterresmit-pset2Tests";
+			sourceTree = "<group>";
+		};
+		F176E51021A2177E001793B9 /* sterresmit-pset2UITests */ = {
+			isa = PBXGroup;
+			children = (
+				F176E51121A2177E001793B9 /* sterresmit_pset2UITests.swift */,
+				F176E51321A2177E001793B9 /* Info.plist */,
+			);
+			path = "sterresmit-pset2UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F176E4ED21A2177D001793B9 /* sterresmit-pset2 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F176E51621A2177E001793B9 /* Build configuration list for PBXNativeTarget "sterresmit-pset2" */;
+			buildPhases = (
+				F176E4EA21A2177D001793B9 /* Sources */,
+				F176E4EB21A2177D001793B9 /* Frameworks */,
+				F176E4EC21A2177D001793B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sterresmit-pset2";
+			productName = "sterresmit-pset2";
+			productReference = F176E4EE21A2177D001793B9 /* sterresmit-pset2.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F176E50121A2177E001793B9 /* sterresmit-pset2Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F176E51921A2177E001793B9 /* Build configuration list for PBXNativeTarget "sterresmit-pset2Tests" */;
+			buildPhases = (
+				F176E4FE21A2177E001793B9 /* Sources */,
+				F176E4FF21A2177E001793B9 /* Frameworks */,
+				F176E50021A2177E001793B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F176E50421A2177E001793B9 /* PBXTargetDependency */,
+			);
+			name = "sterresmit-pset2Tests";
+			productName = "sterresmit-pset2Tests";
+			productReference = F176E50221A2177E001793B9 /* sterresmit-pset2Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F176E50C21A2177E001793B9 /* sterresmit-pset2UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F176E51C21A2177E001793B9 /* Build configuration list for PBXNativeTarget "sterresmit-pset2UITests" */;
+			buildPhases = (
+				F176E50921A2177E001793B9 /* Sources */,
+				F176E50A21A2177E001793B9 /* Frameworks */,
+				F176E50B21A2177E001793B9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F176E50F21A2177E001793B9 /* PBXTargetDependency */,
+			);
+			name = "sterresmit-pset2UITests";
+			productName = "sterresmit-pset2UITests";
+			productReference = F176E50D21A2177E001793B9 /* sterresmit-pset2UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F176E4E621A2177D001793B9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "Sterre Smit";
+				TargetAttributes = {
+					F176E4ED21A2177D001793B9 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					F176E50121A2177E001793B9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F176E4ED21A2177D001793B9;
+					};
+					F176E50C21A2177E001793B9 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = F176E4ED21A2177D001793B9;
+					};
+				};
+			};
+			buildConfigurationList = F176E4E921A2177D001793B9 /* Build configuration list for PBXProject "sterresmit-pset2" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F176E4E521A2177D001793B9;
+			productRefGroup = F176E4EF21A2177D001793B9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F176E4ED21A2177D001793B9 /* sterresmit-pset2 */,
+				F176E50121A2177E001793B9 /* sterresmit-pset2Tests */,
+				F176E50C21A2177E001793B9 /* sterresmit-pset2UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F176E4EC21A2177D001793B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F176E4FC21A2177E001793B9 /* LaunchScreen.storyboard in Resources */,
+				F176E4F921A2177E001793B9 /* Assets.xcassets in Resources */,
+				F176E4F721A2177D001793B9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176E50021A2177E001793B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176E50B21A2177E001793B9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F176E4EA21A2177D001793B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F176E4F421A2177D001793B9 /* ViewController.swift in Sources */,
+				F176E4F221A2177D001793B9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176E4FE21A2177E001793B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F176E50721A2177E001793B9 /* sterresmit_pset2Tests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F176E50921A2177E001793B9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F176E51221A2177E001793B9 /* sterresmit_pset2UITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F176E50421A2177E001793B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F176E4ED21A2177D001793B9 /* sterresmit-pset2 */;
+			targetProxy = F176E50321A2177E001793B9 /* PBXContainerItemProxy */;
+		};
+		F176E50F21A2177E001793B9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F176E4ED21A2177D001793B9 /* sterresmit-pset2 */;
+			targetProxy = F176E50E21A2177E001793B9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F176E4F521A2177D001793B9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F176E4F621A2177D001793B9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F176E4FA21A2177E001793B9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F176E4FB21A2177E001793B9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F176E51421A2177E001793B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F176E51521A2177E001793B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F176E51721A2177E001793B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBAW2556FG;
+				INFOPLIST_FILE = "sterresmit-pset2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.sterresmit-pset2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F176E51821A2177E001793B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBAW2556FG;
+				INFOPLIST_FILE = "sterresmit-pset2/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.sterresmit-pset2";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F176E51A21A2177E001793B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBAW2556FG;
+				INFOPLIST_FILE = "sterresmit-pset2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.sterresmit-pset2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sterresmit-pset2.app/sterresmit-pset2";
+			};
+			name = Debug;
+		};
+		F176E51B21A2177E001793B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBAW2556FG;
+				INFOPLIST_FILE = "sterresmit-pset2Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.sterresmit-pset2Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/sterresmit-pset2.app/sterresmit-pset2";
+			};
+			name = Release;
+		};
+		F176E51D21A2177E001793B9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBAW2556FG;
+				INFOPLIST_FILE = "sterresmit-pset2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.sterresmit-pset2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sterresmit-pset2";
+			};
+			name = Debug;
+		};
+		F176E51E21A2177E001793B9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JBAW2556FG;
+				INFOPLIST_FILE = "sterresmit-pset2UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "nl.mprog.sterresmit-pset2UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "sterresmit-pset2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F176E4E921A2177D001793B9 /* Build configuration list for PBXProject "sterresmit-pset2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F176E51421A2177E001793B9 /* Debug */,
+				F176E51521A2177E001793B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F176E51621A2177E001793B9 /* Build configuration list for PBXNativeTarget "sterresmit-pset2" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F176E51721A2177E001793B9 /* Debug */,
+				F176E51821A2177E001793B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F176E51921A2177E001793B9 /* Build configuration list for PBXNativeTarget "sterresmit-pset2Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F176E51A21A2177E001793B9 /* Debug */,
+				F176E51B21A2177E001793B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F176E51C21A2177E001793B9 /* Build configuration list for PBXNativeTarget "sterresmit-pset2UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F176E51D21A2177E001793B9 /* Debug */,
+				F176E51E21A2177E001793B9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F176E4E621A2177D001793B9 /* Project object */;
+}
