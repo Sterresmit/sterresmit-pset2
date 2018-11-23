@@ -8,12 +8,21 @@
 
 /* Begin PBXBuildFile section */
 		F176E4F221A2177D001793B9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E4F121A2177D001793B9 /* AppDelegate.swift */; };
-		F176E4F421A2177D001793B9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E4F321A2177D001793B9 /* ViewController.swift */; };
+		F176E4F421A2177D001793B9 /* StartScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E4F321A2177D001793B9 /* StartScreen.swift */; };
 		F176E4F721A2177D001793B9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176E4F521A2177D001793B9 /* Main.storyboard */; };
 		F176E4F921A2177E001793B9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F176E4F821A2177E001793B9 /* Assets.xcassets */; };
 		F176E4FC21A2177E001793B9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F176E4FA21A2177E001793B9 /* LaunchScreen.storyboard */; };
 		F176E50721A2177E001793B9 /* sterresmit_pset2Tests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E50621A2177E001793B9 /* sterresmit_pset2Tests.swift */; };
 		F176E51221A2177E001793B9 /* sterresmit_pset2UITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E51121A2177E001793B9 /* sterresmit_pset2UITests.swift */; };
+		F176E53321A2BCE6001793B9 /* Story.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E52D21A2BCE6001793B9 /* Story.swift */; };
+		F176E53421A2BCE6001793B9 /* madlib0_simple.txt in Resources */ = {isa = PBXBuildFile; fileRef = F176E52E21A2BCE6001793B9 /* madlib0_simple.txt */; };
+		F176E53521A2BCE6001793B9 /* madlib1_tarzan.txt in Resources */ = {isa = PBXBuildFile; fileRef = F176E52F21A2BCE6001793B9 /* madlib1_tarzan.txt */; };
+		F176E53621A2BCE6001793B9 /* madlib3_clothes.txt in Resources */ = {isa = PBXBuildFile; fileRef = F176E53021A2BCE6001793B9 /* madlib3_clothes.txt */; };
+		F176E53721A2BCE6001793B9 /* madlib2_university.txt in Resources */ = {isa = PBXBuildFile; fileRef = F176E53121A2BCE6001793B9 /* madlib2_university.txt */; };
+		F176E53821A2BCE6001793B9 /* madlib4_dance.txt in Resources */ = {isa = PBXBuildFile; fileRef = F176E53221A2BCE6001793B9 /* madlib4_dance.txt */; };
+		F176E53C21A2E3F0001793B9 /* WordsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E53B21A2E3F0001793B9 /* WordsVC.swift */; };
+		F176E53E21A2E4B1001793B9 /* ResultVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E53D21A2E4B1001793B9 /* ResultVC.swift */; };
+		F176E54021A2E6DA001793B9 /* StoryChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = F176E53F21A2E6DA001793B9 /* StoryChoice.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +45,7 @@
 /* Begin PBXFileReference section */
 		F176E4EE21A2177D001793B9 /* sterresmit-pset2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sterresmit-pset2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F176E4F121A2177D001793B9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F176E4F321A2177D001793B9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F176E4F321A2177D001793B9 /* StartScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartScreen.swift; sourceTree = "<group>"; };
 		F176E4F621A2177D001793B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		F176E4F821A2177E001793B9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F176E4FB21A2177E001793B9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +56,15 @@
 		F176E50D21A2177E001793B9 /* sterresmit-pset2UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "sterresmit-pset2UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F176E51121A2177E001793B9 /* sterresmit_pset2UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sterresmit_pset2UITests.swift; sourceTree = "<group>"; };
 		F176E51321A2177E001793B9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F176E52D21A2BCE6001793B9 /* Story.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Story.swift; sourceTree = "<group>"; };
+		F176E52E21A2BCE6001793B9 /* madlib0_simple.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib0_simple.txt; sourceTree = "<group>"; };
+		F176E52F21A2BCE6001793B9 /* madlib1_tarzan.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib1_tarzan.txt; sourceTree = "<group>"; };
+		F176E53021A2BCE6001793B9 /* madlib3_clothes.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib3_clothes.txt; sourceTree = "<group>"; };
+		F176E53121A2BCE6001793B9 /* madlib2_university.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib2_university.txt; sourceTree = "<group>"; };
+		F176E53221A2BCE6001793B9 /* madlib4_dance.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = madlib4_dance.txt; sourceTree = "<group>"; };
+		F176E53B21A2E3F0001793B9 /* WordsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordsVC.swift; sourceTree = "<group>"; };
+		F176E53D21A2E4B1001793B9 /* ResultVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultVC.swift; sourceTree = "<group>"; };
+		F176E53F21A2E6DA001793B9 /* StoryChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoryChoice.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -98,8 +116,17 @@
 			isa = PBXGroup;
 			children = (
 				F176E4F121A2177D001793B9 /* AppDelegate.swift */,
-				F176E4F321A2177D001793B9 /* ViewController.swift */,
+				F176E53D21A2E4B1001793B9 /* ResultVC.swift */,
+				F176E4F321A2177D001793B9 /* StartScreen.swift */,
 				F176E4F521A2177D001793B9 /* Main.storyboard */,
+				F176E53F21A2E6DA001793B9 /* StoryChoice.swift */,
+				F176E52E21A2BCE6001793B9 /* madlib0_simple.txt */,
+				F176E52F21A2BCE6001793B9 /* madlib1_tarzan.txt */,
+				F176E53121A2BCE6001793B9 /* madlib2_university.txt */,
+				F176E53021A2BCE6001793B9 /* madlib3_clothes.txt */,
+				F176E53221A2BCE6001793B9 /* madlib4_dance.txt */,
+				F176E52D21A2BCE6001793B9 /* Story.swift */,
+				F176E53B21A2E3F0001793B9 /* WordsVC.swift */,
 				F176E4F821A2177E001793B9 /* Assets.xcassets */,
 				F176E4FA21A2177E001793B9 /* LaunchScreen.storyboard */,
 				F176E4FD21A2177E001793B9 /* Info.plist */,
@@ -230,7 +257,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F176E4FC21A2177E001793B9 /* LaunchScreen.storyboard in Resources */,
+				F176E53521A2BCE6001793B9 /* madlib1_tarzan.txt in Resources */,
 				F176E4F921A2177E001793B9 /* Assets.xcassets in Resources */,
+				F176E53421A2BCE6001793B9 /* madlib0_simple.txt in Resources */,
+				F176E53621A2BCE6001793B9 /* madlib3_clothes.txt in Resources */,
+				F176E53721A2BCE6001793B9 /* madlib2_university.txt in Resources */,
+				F176E53821A2BCE6001793B9 /* madlib4_dance.txt in Resources */,
 				F176E4F721A2177D001793B9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,8 +288,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F176E4F421A2177D001793B9 /* ViewController.swift in Sources */,
+				F176E53C21A2E3F0001793B9 /* WordsVC.swift in Sources */,
+				F176E53E21A2E4B1001793B9 /* ResultVC.swift in Sources */,
+				F176E4F421A2177D001793B9 /* StartScreen.swift in Sources */,
 				F176E4F221A2177D001793B9 /* AppDelegate.swift in Sources */,
+				F176E54021A2E6DA001793B9 /* StoryChoice.swift in Sources */,
+				F176E53321A2BCE6001793B9 /* Story.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
