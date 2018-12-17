@@ -10,20 +10,11 @@
 //
 
 import Foundation
-/**
- This class represents a Mad Libs story that comes from a text file.
- You can construct it and pass a filename to read the story text.
- 
- After constructing it, you can ask it for each placeholder by calling
- nextPlaceholder, then filling in that placeholder by calling fillInPlaceholder.
- To see how many placeholders are left, use the values
- placeholdersRemaining and isFilledIn.
- */
 struct Story {
     static private let startString = """
 <div style='font-family: "Helvetica Neue"; font-size: 12pt'>
 """
-
+    
     static private let endString = "</div>"
     
     /// Text of the story.

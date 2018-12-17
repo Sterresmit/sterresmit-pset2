@@ -19,38 +19,37 @@ class WordsVC: UIViewController {
         
     }
     
-
+    
     
     @IBAction func submitWord(_ sender: Any) {
-//    Fill in placeholder and go to next one
-      if story.remainingPlaceholders > 1 {
-//        wordsLeft.text = "You've got \(story.remainingPlaceholders - 1) words left."
-        story.fillInPlaceholder(word: inputWord.text!)
-        inputWord.text = ""
-        inputWord.placeholder = story.nextPlaceholder
-        wordsLeftCount()
-        
-
-      } else {
-        story.fillInPlaceholder(word: inputWord.text!)
-        performSegue(withIdentifier: "ResultSegue", sender: sender)
+        //    Fill in placeholder and go to next one
+        if story.remainingPlaceholders > 1 {
+            story.fillInPlaceholder(word: inputWord.text!)
+            inputWord.text = ""
+            inputWord.placeholder = story.nextPlaceholder
+            wordsLeftCount()
+            
+            
+        } else {
+            // fill in words and prepare segue
+            story.fillInPlaceholder(word: inputWord.text!)
+            performSegue(withIdentifier: "ResultSegue", sender: sender)
         }
     }
     
     
-
+    
     
     override func viewDidLoad() {
         
         super.viewDidLoad()
+        // create text
         let storyPath = Bundle.main.path(forResource: name, ofType: "txt")
         let text = try! String(contentsOfFile: storyPath!, encoding: .utf8)
         story = Story(withText: text)
         // do something with next placeholder
         inputWord.placeholder = story.nextPlaceholder
-//        wordsLeft.text = "You've got \(story.totalPlaceholders) words left."
-
-        // Do any additional setup after loading the view.
+        
     }
     
     //        To the resulting story
@@ -61,14 +60,4 @@ class WordsVC: UIViewController {
         }
         
     }
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
-    }
-    */
 }
